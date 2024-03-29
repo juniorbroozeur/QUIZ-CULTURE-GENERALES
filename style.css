@@ -1,0 +1,81 @@
+body {
+  background-image: url('file:///C:/Users/HP/Desktop/Quiz/imga/IMG_1333h.JPG');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
+
+nav{
+  float: right;
+}
+
+a{
+  color: white;
+  text-transform: uppercase;
+}
+
+#content {
+  background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond semi-transparente pour le contenu */
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 600px; /* Largeur maximale du contenu */
+  text-align: center;
+}
+
+#acc{
+  float: right;
+}
+
+.options-list {
+  list-style: none;
+}
+.floating-menu {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn-floating {
+  color: white;
+  background-color: #225f91; /* Couleur de fond du bouton */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-floating:hover {
+  background-color: #2d7acd; /* Couleur de fond du bouton au survol */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.score{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
